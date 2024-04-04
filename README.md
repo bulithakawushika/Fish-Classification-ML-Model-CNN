@@ -38,9 +38,7 @@ Finally, By combining both models we are able to predict if the input image has 
 
 ## Our solution
 
-We are developing a cloud-based system, first we will be developing
-the CNN model and will deploy it on a web server. With the help of
-the mobile application users will be able to upload an image of the
+With the help of the mobile application users will be able to upload an image of the
 fish species to the server and it will predict the species as the output.
 Technologies that will be used
 
@@ -80,3 +78,7 @@ one to classify that image into what fish it is. This can only classify the spec
 - Tetrapturus belone
 - Trachinus draco
 - Trigloporus lastoviza
+
+### Why use Mobile Net instead of Resnet?
+
+This model was designed for embedding in a mobile app, so MobileNet is a more suitable solution than ResNet because it is lighter in weight.
