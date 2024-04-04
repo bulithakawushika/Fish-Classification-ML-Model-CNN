@@ -1,8 +1,6 @@
-# Mobile application to identify fish species
-
-A mobile application in development to identify fish species from an image.
-This is only the start of the project and this flutter project is the frontend of this whole
-application.
+# Fish Classification Machine Learning Model (CNN)
+ In this project, created a machine learning project to classify 20 fish species, and it is also able to
+ distinguish between fish and non-fish.
 
 ## Introduction to the project
 
