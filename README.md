@@ -32,7 +32,7 @@ have encountered. Without any effort.
 First, we need to develop and train our CNN model, then we can
 proceed to deploy our model.
 
-First we are going to train a binary classification model by using a pre-trained model 'MobileNet'. Model have been trained by using 12000 Test Data and 68000 Training Data for two classes, which is Fish vs Not-Fish.
+First, we are going to train a binary classification model by using a pre-trained model 'MobileNet'. Model have been trained by using 12000 Test Data and 68000 Training Data for two classes, which is Fish vs Not-Fish.
 
 Then, We made our own custom model for the classification model and trained for 20 classes using 6000 Test data and 34000 training dataset.
 
