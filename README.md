@@ -22,16 +22,18 @@ tool for identifying fish species.
 
 ## Project Aim
 
-The aim of the project is to build a mobile application that can
+The aim of the project is to build a machine learning model that can
 accurately predict the fish species using an image as the user input.
-With this Application user will be able to know which species they
+With this model, users will be able to know which species they
 have encountered. Without any effort.
 
 ## Project objectives
 
 First, we need to develop and train our CNN model, then we can
-proceed to deploy our model. Finally, we are going to develop a
-mobile interface to interact with this model with ease.
+proceed to deploy our model. 
+First we are going to train a binary classification model by using a pre-trained model 'MobileNet'. Model have been trained by using 12000 Test Data and 68000 Training Data for two classes, which is Fish vs Not-Fish.
+Then, We made our own custom model for the classification model and trained for 20 classes using 6000 Test data and 34000 training dataset.
+Finally, By combining both models we are able to predict if the input image has a fish or not, if yes then what is the name of the fish species.
 
 ## Our solution
 
@@ -49,8 +51,9 @@ Technologies that will be used
   and inference of deep learning neural networks.
 - Keras – Keras acts as an interface for the Tensorflow library
 - Flutter – Flutter is used to develop mobile applications which are
-  supported to Android/iOS platforms.
+  supported to Android/iOS platforms. (not included in this repository)
 
+In this repository I contain machine learing model only.
 This app contains two machine learning models, one to identify an image as a fish or not and another
 one to classify that image into what fish it is. This can only classify the species mentioned below.
 
