@@ -2,6 +2,8 @@
  In this project, created a machine learning project to classify 20 fish species, and it is also able to
  distinguish between fish and non-fish.
 
+![Uploading R.gif…]()
+
 ## Introduction to the project
 
 There are lot of unique fish species around the world, for people who
