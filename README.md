@@ -2,7 +2,8 @@
  In this project, created a machine learning project to classify 20 fish species, and it is also able to
  distinguish between fish and non-fish.
 
-![Uploading R.gif…]()
+![R](https://github.com/bulithakawushika/Fish-Classification-ML-Model-CNN/assets/115935781/90706476-1dcd-4ac6-8287-2a29012cf67d)
+
 
 ## Introduction to the project
 
