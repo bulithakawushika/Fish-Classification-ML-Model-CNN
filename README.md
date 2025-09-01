@@ -102,3 +102,6 @@ one to classify that image into what fish it is. This can only classify the spec
 ### Why use Mobile Net instead of Resnet?
 
 This model was designed for embedding in a mobile app, so MobileNet is a more suitable solution than ResNet because it is lighter in weight.
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
