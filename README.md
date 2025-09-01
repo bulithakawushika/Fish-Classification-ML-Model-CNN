@@ -39,6 +39,23 @@ Then, We made our own custom model for the classification model and trained for 
 
 Finally, By combining both models we are able to predict if the input image has a fish or not, if yes then what is the name of the fish species.
 
+## Workflow
+1. **Fish/Non-Fish Detection**  
+   - Uses a custom detection model to identify fish regions in images.  
+   - Filters out non-fish images to improve classification accuracy.
+
+2. **Feature Extraction**  
+   - MobileNet is used as a feature extractor.  
+   - Pretrained layers are frozen to avoid overtraining and retain learned features.
+
+3. **Fish Classification**  
+   - A CNN model takes the extracted features and classifies the fish into species or categories.  
+
+## Highlights
+- Efficient two-stage pipeline: detection → feature extraction → classification.  
+- Reduces false positives by separating fish/non-fish detection.  
+- Leverages transfer learning for faster and more accurate training.   
+
 ## Our solution
 
 With the help of the mobile application users will be able to upload an image of the
