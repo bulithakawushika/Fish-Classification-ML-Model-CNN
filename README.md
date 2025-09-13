@@ -76,7 +76,32 @@ In this repository I contain machine learing model only.
 This app contains two machine learning models, one to identify an image as a fish or not and another
 one to classify that image into what fish it is. This can only classify the species mentioned below.
 
-### Recognizable Fish Species
+# Flutter Android App with Embedded CNN Model
+
+A Flutter Android application that includes an embedded Convolutional Neural Network (CNN) model for on-device inference.
+
+### Overview
+
+The Flutter mobile application folder in this repository contains a Flutter application that runs an embedded CNN model on Android devices. The app demonstrates how to load a converted TensorFlow Lite (TFLite) model, preprocess input data, run inference on-device and display results in the UI.
+
+### Features
+
+- On-device inference using an embedded CNN model (TFLite)
+- Image preprocessing pipeline
+- The app allows users to take a photo with the camera or select an image from the gallery
+- Simple UI to run inference and display predictions
+
+```
+/Flutter Mobile Application (mobile project root)
+├─ android/                 # Android native project files
+├─ lib/                     # Flutter Dart source files
+│  ├─ main.dart
+│  └─ ...
+├─ assets/
+│  └─ model.tflite          # Embedded TFLite model (example)
+└─ pubspec.yaml
+```
+## Recognizable Fish Species
 
 - Anthias anthias
 - Atherinomorus lacunosus
@@ -99,7 +124,7 @@ one to classify that image into what fish it is. This can only classify the spec
 - Trachinus draco
 - Trigloporus lastoviza
 
-### Why use Mobile Net instead of Resnet?
+## Why use Mobile Net instead of Resnet?
 
 This model was designed for embedding in a mobile app, so MobileNet is a more suitable solution than ResNet because it is lighter in weight.
 
